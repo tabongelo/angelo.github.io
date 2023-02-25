@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Apparel </title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="docs.css">
+<script src="js/bootstrap.bundle.min.js"></script>
+<style>
+    .container{
+        padding: 20px 20px 20px 20px;
+    }
+    .card {
+        padding: 10px 10px 10px 10px;
+    }
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand text-danger">AT's Apparel</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Clothing
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Tshirt</a></li>
+                      <li><a class="dropdown-item" href="#">Shorts</a></li>
+                      <li><a class="dropdown-item" href="#">Pants</a></li>
+                      <li><a class="dropdown-item" href="#">Skirts</a></li>
+                      <li><a class="dropdown-item" href="#">Jeans</a></li>
+                    </ul>
+                  </li>
+                <a href="#" class="nav-item nav-link">Contact</a>
+                <a href="#" class="nav-item nav-link">Help</a>
+            </div>
+            <div class="navbar-nav ms-auto">
+                <i class="bi bi-cart4 navbar-brand text-danger"></i>
+                <a href="#" class="nav-item nav-link">Sign Up</a>
+                <a href="#" class="nav-item nav-link">Login</a>
+                <i class="bi bi-person navbar-brand text-white"></i>
+            </div>
+        </div>
+        <label class="switch">
+    <input type="checkbox">
+        <span class="slider"></span>
+        </label>
+    </div>
+</nav>
+<br>
+<div class="container">
+    <form class="d-flex">
+        <input class="form-control me-2" placeholder="Search here" aria-label="Search here">
+        <button class="btn btn-outline-info" type="send">Search</button>
+    </form>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card text-center border-danger mb-3" style="width:300px">
+                <img class="card-img-top" src="./images/shirt1.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Shirt 1</h4>
+                  <a href="#" class="btn btn-primary btn-sm">Small</a>
+                  <a href="#" class="btn btn-primary btn-sm">Medium</a>
+                  <a href="#" class="btn btn-primary btn-sm">Large</a><br><br>
+                  <button type="button" class="btn btn-outline-secondary" style="--bs-btn-padding-y: .25rem;--bs-btn-padding-x: .5rem;--bs-btn-font-size: .75rem;"> Add to cart </button>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card text-center border-danger mb-3" style="width:300px">
+                <img class="card-img-top" src="./images/shirt1.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Shirt 2</h4>
+                  <a href="#" class="btn btn-primary btn-sm">Small</a>
+                  <a href="#" class="btn btn-primary btn-sm">Medium</a>
+                  <a href="#" class="btn btn-primary btn-sm">Large</a><br><br>
+                  <button type="button" class="btn btn-outline-secondary" style="--bs-btn-padding-y: .25rem;--bs-btn-padding-x: .5rem;--bs-btn-font-size: .75rem;"> Add to cart </button>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card text-center border-danger mb-3" style="width:300px">
+                <img class="card-img-top" src="./images/shirt1.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Shirt 3</h4>
+                  <a href="#" class="btn btn-primary btn-sm">Small</a>
+                  <a href="#" class="btn btn-primary btn-sm">Medium</a>
+                  <a href="#" class="btn btn-primary btn-sm">Large</a><br><br>
+                  <button type="button" class="btn btn-outline-secondary" style="--bs-btn-padding-y: .25rem;--bs-btn-padding-x: .5rem;--bs-btn-font-size: .75rem;"> Add to cart </button>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card text-center border-danger mb-3" style="width:300px">
+                <img class="card-img-top" src="./images/shirt1.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Shirt 4</h4>
+                  <a href="#" class="btn btn-primary btn-sm">Small</a>
+                  <a href="#" class="btn btn-primary btn-sm">Medium</a>
+                  <a href="#" class="btn btn-primary btn-sm">Large</a><br><br>
+                  <button type="button" class="btn btn-outline-secondary" style="--bs-btn-padding-y: .25rem;--bs-btn-padding-x: .5rem;--bs-btn-font-size: .75rem;"> Add to cart </button>
+                </div>
+              </div>
+        </div>
+    </div>
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+</div>
+<p class="placeholder-glow">
+    <span class="placeholder col-12 placeholder-xs"></span>
+  </p>
+<p> Created by Angelo Tabontabon </p>
+<p> Terms and Policy </p>
+</div>
+</body>
+</html>
